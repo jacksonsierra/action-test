@@ -1,12 +1,12 @@
-name: GitHub Actions Demo
+name: GraphQL Inspector
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Backwards-Compatible-Schema:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@master
-      - uses: jacksonsierra/graphql-inspector@master
+      - uses: jacksonsierra/graphql-inspector@a87f796be0d8ed786f96dae657fcd5be168044ad
         with:
-          schema: 'master:schema.graphql'
+          schema: 'main:schema.graphql'
