@@ -9,4 +9,4 @@ jobs:
         uses: actions/checkout@master
       - uses: jacksonsierra/graphql-inspector@master
         with:
-          schema: 'master:schema.graphql'
+          schema: 'main:schema.graphql'
