@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-      - uses: jacksonsierra/graphql-inspector@master
+      - uses: jacksonsierra/graphql-inspector@a87f796be0d8ed786f96dae657fcd5be168044ad
         with:
           schema: 'main:schema.graphql'
